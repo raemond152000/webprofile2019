@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+
+	background-color: #212121;
+}
+
+#hi {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100px;
+	margin-top: 420px;
+	color: #ff9e22;
+	margin-left: 100px;
+
+}
+
+#Raemond {
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+	margin-top: 70px;
+	color: white;
+	margin-right: 40px;
+	animation-name: fadeIn;
+	animation-duration: 9s;
+}
+
+.btn-about  {
+    position: absolute;
+    top: 20%;
+    left: 98%;
+  /*  white-space: nowrap;*/
+    transform: translate(-50%, -50%) rotate(-90deg);
+    z-index: 10;
+ /*   mix-blend-mode: exclusion;*/
+    text-decoration: none; 
+    background-color: none;
+    color: white;
+}
+
+a.btn-about:hover {
+	 text-decoration: none; 
+	 color: white;
+
+}
+.checker{
+	border: 1px solid yellow;
+}
+
+.landing{
+	height: 100vh;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  position: absolute;
+  
+  margin-right: 500px;
+
+}
+
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  color: #ff9e22;
+  height: 0px;
+  margin-left: 500px;
+}
+
+
+.arrow:hover{
+	text-decoration:none;
+}
+
+#arrow {
+	font-size:80px;
+	color: white;
+	opacity: 0.3;
+}
+
+#see{
+	color: white;
+	transform: rotate(90deg);
+	margin-top: -70px;
+	margin-right:-80px;
+}
+
+p{
+	color: white;
+}
+
+#bounce1 {
+	  animation-duration: 3s;
+  	  animation-delay: 2s;
+  	  animation-iteration-count: infinite;
+}
+
+@media only screen and (min-width: 355px) and (max-width: 769px) {
+
+
+.sub-t{
+	font-size: 18px;
+}
+.title{
+	font-size: 25px;
+}
+.h-link{
+	font-size: 15px;
+}
+.btn-p{
+	margin-top: 5px;
+}
+.b-cont{
+	margin-top: 5vh;
+}
+.selection{
+	min-height: 100px;
+	margin-left: -21vh;	
+	font-size: 15px;
+}
+
+
+
+
+
+/*Tablet Styles*/
+
+@media only screen and (min-width: 500px) and (max-width: 780px) {
+
+
+}
+
+	/*Desktop Styles*/
+
+	@media only screen and (min-width: 900px) {
+
+
+
+
+}
+
+
