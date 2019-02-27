@@ -16,24 +16,56 @@ body {
 #hi {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100px;
-	margin-top: 420px;
+	margin-top: 270px;
 	color: #ff9e22;
 	margin-left: 100px;
 
+
 }
 
-#Raemond {
+#Im {
 	font-family: 'Montserrat', sans-serif;
 	font-size:40px;
-	margin-top: 70px;
-	color: white;
+	margin-top: 60px;
+	
 	margin-right: 40px;
+	
+}
+#Raemond{
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
 	animation-name: fadeIn;
 	animation-duration: 9s;
+	color: white;
+}
+#build{
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	animation-name: fadeIn;
+	animation-duration: 14s;
+	color: #263238;
+}
+#build2{
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	animation-name: fadeIn;
+	animation-duration: 14s;
+	color: #37474F;
+}
+
+#typetype{
+	margin-top: 60px;
+}
+#type1{
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+	margin-top: 60px;
+	color: white;
+	margin-right: 40px;
 }
 
 .btn-about  {
-    position: absolute;
+    position: fixed;
     top: 20%;
     left: 98%;
   /*  white-space: nowrap;*/
@@ -58,16 +90,7 @@ a.btn-about:hover {
 	height: 100vh;
 }
 
-i {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  position: absolute;
-  
-  margin-right: 500px;
 
-}
 
 
 .down {
@@ -78,7 +101,9 @@ i {
   margin-left: 500px;
 }
 
-
+#type1{
+	margin-top: 100px;
+}
 .arrow:hover{
 	text-decoration:none;
 }
@@ -87,6 +112,7 @@ i {
 	font-size:80px;
 	color: white;
 	opacity: 0.3;
+	margin-top: -60px;
 }
 
 #see{
@@ -97,57 +123,66 @@ i {
 }
 
 p{
-	color: white;
+	color: #E0E0E0;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+
 }
 
 #bounce1 {
 	  animation-duration: 3s;
   	  animation-delay: 2s;
   	  animation-iteration-count: infinite;
+  	  margin-top: -50px;
 }
 
-@media only screen and (min-width: 355px) and (max-width: 769px) {
-
-
-.sub-t{
-	font-size: 18px;
+i{
+	color: white;
 }
-.title{
-	font-size: 25px;
-}
-.h-link{
+
+#navbar {
+	font-family: 'Crimson Text', serif;
 	font-size: 15px;
-}
-.btn-p{
-	margin-top: 5px;
-}
-.b-cont{
-	margin-top: 5vh;
-}
-.selection{
-	min-height: 100px;
-	margin-left: -21vh;	
-	font-size: 15px;
-}
-
-
-
-
-
-/*Tablet Styles*/
-
-@media only screen and (min-width: 500px) and (max-width: 780px) {
-
+	margin-top: 20px;
+	margin-left: 20px;
 
 }
 
-	/*Desktop Styles*/
+#navbar:hover{
+	color: #ff9e22;
+	
+	
+}
 
-	@media only screen and (min-width: 900px) {
+.aboutme{
+	margin-top: 50px;
+}
+
+.rae {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+
+#pic{
+	width: 300px;
+	height: 250px;
+	border-radius: 50%;
+}
+@media only screen and (min-width: 300px) and (max-width: 960px)
+{
+
+
+
 
 
 
 
 }
+
+
+
+
+
+
 
 
