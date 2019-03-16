@@ -23,6 +23,39 @@ body {
 
 }
 
+
+   a.navbar-brand {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+a.navbar-brand:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  left: 0%;
+  position: absolute;
+  background: #ff9e22;
+  transition: width 0.35s ease 0s, left 0.35s ease 0s;
+  width: 0;
+}
+a.navbar-brand:hover:after { 
+  width:100%;
+  left: 0; 
+}
+
+
+
+
+
+
 #Im {
 	font-family: 'Montserrat', sans-serif;
 	font-size:40px;
@@ -79,7 +112,7 @@ body {
 
 a.btn-about:hover {
 	 text-decoration: none; 
-	 color: white;
+	 color: #ff9e22;
 
 }
 .checker{
@@ -122,9 +155,15 @@ a.btn-about:hover {
 	margin-right:-80px;
 }
 
+#see:hover {
+	 text-decoration: none; 
+	 color: #ff9e22;
+
+}
+
 p{
 	color: #E0E0E0;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 
 }
@@ -141,7 +180,7 @@ i{
 }
 
 #navbar {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 15px;
 	margin-top: 20px;
 	margin-left: 20px;
@@ -170,6 +209,14 @@ i{
 }
 @media only screen and (min-width: 300px) and (max-width: 960px)
 {
+
+/*.navbar-brand{
+	position: relative;
+	transform: translate(-20%, -50%);
+
+
+}*/
+
 
 #hi {
 	font-family: 'Montserrat', sans-serif;
