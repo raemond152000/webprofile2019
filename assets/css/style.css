@@ -16,7 +16,6 @@ body {
 #hi {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100px;
-<<<<<<< HEAD
 	margin-top: 180px;
 	color: #ff9e22;
 	margin-left: 100px;
@@ -26,17 +25,6 @@ body {
 	color: #ff9e22;
 }
 a.navbar-brand {
-=======
-	margin-top: 270px;
-	color: #ff9e22;
-	margin-left: 100px;
-
-
-}
-
-
-   a.navbar-brand {
->>>>>>> 65b13b4e217793e656342474e78e795985db16cc
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -81,11 +69,7 @@ a.navbar-brand:hover:after {
 	font-size:40px;
 	animation-name: fadeIn;
 	animation-duration: 9s;
-<<<<<<< HEAD
 	color: #ff9e22;
-=======
-	color: white;
->>>>>>> 65b13b4e217793e656342474e78e795985db16cc
 }
 #build{
 	font-family: 'Montserrat', sans-serif;
@@ -136,11 +120,7 @@ a.btn-about:hover {
 }
 
 .landing{
-<<<<<<< HEAD
 	height: 100vh;		
-=======
-	height: 100vh;
->>>>>>> 65b13b4e217793e656342474e78e795985db16cc
 }
 
 
@@ -214,11 +194,7 @@ i{
 }
 
 .aboutme{
-<<<<<<< HEAD
 	margin-top: 150px;
-=======
-	margin-top: 50px;
->>>>>>> 65b13b4e217793e656342474e78e795985db16cc
 }
 
 .rae {
@@ -231,11 +207,7 @@ i{
 	height: 250px;
 	border-radius: 50%;
 }
-<<<<<<< HEAD
 @media only screen and (min-width: 1600px) and (max-width: 1920px)
-=======
-@media only screen and (min-width: 300px) and (max-width: 960px)
->>>>>>> 65b13b4e217793e656342474e78e795985db16cc
 {
 
 /*.navbar-brand{
@@ -249,20 +221,12 @@ i{
 #hi {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100px;
-<<<<<<< HEAD
 	margin-top: 300px;
 	color: #ff9e22;
 	margin-left: 100px;
 }
 #full {
 	color: #ff9e22;
-=======
-	margin-top: 100px;
-	color: #ff9e22;
-	margin-left: 100px;
-
-
->>>>>>> 65b13b4e217793e656342474e78e795985db16cc
 }
 
 #aboutindex{
@@ -270,7 +234,6 @@ i{
 
 }
 
-<<<<<<< HEAD
 .aboutme{
 	margin-top: 150px;
 }
@@ -280,8 +243,6 @@ i{
 }
 
 
-=======
->>>>>>> 65b13b4e217793e656342474e78e795985db16cc
 
 
 }
